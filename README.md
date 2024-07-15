@@ -1,20 +1,17 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction to DCaprio Data Modelling
+This repository is for the data preparation code. 
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1. Install Python 3.12.4 for the kernel [here](https://www.python.org/downloads/)
+    - PIP should be as well from the python installer, but if it is not installed then head over to no. 2
+    - check if you have PIP available by running this command `py -m pip --version`
+     - if you face an error, please head on over to no. 3
+2. [Optional] Install the latest version of PIP [here](https://pypi.org/project/pip/)
+    - check if you have PIP available by running this command `py -m pip --version`
+3. Python script should be added into the environment variables under `Path`:
+    - C:\Users\{user}\AppData\Local\Programs\Python\Python312\Scripts\
+    - C:\Users\{user}\AppData\Local\Programs\Python\Python312\
+    - C:\Users\{user}\AppData\Local\Programs\Python\Python312\python.exe
+4. Install python packages with pip as needed
+    - pip install oc cv2 numpy
