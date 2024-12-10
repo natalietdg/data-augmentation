@@ -14,4 +14,4 @@ This repository is for the data preparation code.
     - C:\Users\{user}\AppData\Local\Programs\Python\Python312\
     - C:\Users\{user}\AppData\Local\Programs\Python\Python312\python.exe
 4. Install python packages with pip as needed
-    - pip install oc cv2 numpy
+    - pip install -r ./requirements.txt
